@@ -22,7 +22,12 @@ Each file serves a different purpose as described below:
 
 - **Python Version**: `3.10.11`  
 
-RUN this to run the api "filename:app", change the file name according to the file you want to run.
+RUN this to run the trained model api
 ```bash
-  uvicorn filename:app --reload
+  uvicorn main:app --reload
+```
+
+RUN this to run the openai system prompted api
+```bash
+  uvicorn main_open_ai:app --reload
 ```
