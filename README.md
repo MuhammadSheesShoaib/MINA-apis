@@ -22,6 +22,7 @@ Each file serves a different purpose as described below:
 
 - **Python Version**: `3.10.11`  
 
+RUN this to run the api "filename:app", change the file name according to the file you want to run.
 ```bash
-  uvicorn main:app --reload
+  uvicorn filename:app --reload
 ```
