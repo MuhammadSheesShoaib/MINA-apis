@@ -21,3 +21,7 @@ Each file serves a different purpose as described below:
 ## Environment
 
 - **Python Version**: `3.10.11`  
+
+```bash
+  uvicorn main:app --reload
+```
